@@ -1,7 +1,7 @@
 const createCsvWriter = require('csv-writer').createObjectCsvWriter; // requires csv-writer package
 const {Groq} = require('groq-sdk');
 const fs = require('fs');
-require('dotenv').config();
+require('dotenv').config(); // this is important for accessing API keys.
 
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 

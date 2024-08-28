@@ -1,4 +1,4 @@
-const axios = require('axios');
+const axios = require('axios'); // This imports axios
 const fs = require('fs');
 
 // This script takes the link and uses Jina AI to scrape the site's homepage.
